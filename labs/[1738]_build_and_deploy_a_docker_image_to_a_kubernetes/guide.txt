@@ -19,3 +19,4 @@ Task 3 : Check that an application has been deployed to the cluster
 
 Task 4 : Test that a service exists that responds to requests like Echo-app
 - kubectl expose deployment echo-web --type=LoadBalancer --port 80 --target-port 8000
+- kubectl get svc
